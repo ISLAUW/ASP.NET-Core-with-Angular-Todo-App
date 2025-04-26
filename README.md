@@ -1,13 +1,28 @@
 # ASP.NET-Core-with-Angular-Todo-App
 
-Utilized Visual Studio/.NET CLI to generate an ASP.NET Core + Angular project template.
+## 📝 Project Description
 
-Developed a full-stack Todo application that demonstrates fundamental CRUD operations.
+**TodoApp** is a simple full-stack application built with **ASP.NET Core Web API** and **Angular**.  
+It demonstrates how to create a CRUD (Create, Read, Update, Delete) Todo List using a modern web application stack.
 
-Implemented a RESTful Web API using ASP.NET Core to handle creation, retrieval, update, and deletion of todo items.
+This project is ideal for beginners to learn about:
+- Backend API development with ASP.NET Core
+- Frontend SPA (Single Page Application) development with Angular
+- Communication between frontend and backend via HTTP
 
-Built an Angular front-end featuring dynamic data binding and a responsive UI to interact with the backend.
+---
 
-Leveraged Entity Framework Core for efficient data persistence and database management.
+## 🛠 Technologies Used
 
-Showcased modern full-stack development practices with clear separation of concerns between the front-end and back-end.
+| Layer           | Technology                          |
+|-----------------|-------------------------------------|
+| Backend         | ASP.NET Core 6.0+ (C#)              |
+| Frontend        | Angular 13+ (TypeScript, HTML, CSS) |
+| Communication   | RESTful API (JSON)                  |
+| Development IDE | Visual Studio 2022                  |
+| Package Manager | npm (Node Package Manager)          |
+
+---
+
+## 📂 Project Structure
+
