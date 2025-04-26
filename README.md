@@ -16,8 +16,8 @@ This project is ideal for beginners to learn about:
 
 | Layer           | Technology                          |
 |-----------------|-------------------------------------|
-| Backend         | ASP.NET Core 6.0+ (C#)              |
-| Frontend        | Angular 13+ (TypeScript, HTML, CSS) |
+| Backend         | ASP.NET Core 9.0+ (C#)              |
+| Frontend        | Angular 15+ (TypeScript, HTML, CSS) |
 | Communication   | RESTful API (JSON)                  |
 | Development IDE | Visual Studio 2022                  |
 | Package Manager | npm (Node Package Manager)          |
@@ -25,4 +25,44 @@ This project is ideal for beginners to learn about:
 ---
 
 ## 📂 Project Structure
+TodoApp/ │ ├── Controllers/ # C# API Controllers ├── Models/ # C# Data Models (TodoItem) ├── ClientApp/ # Angular Frontend Application │ ├── src/ │ │ ├── app/ │ │ │ ├── components/ # Angular Components (Todo list, item forms) │ │ │ ├── services/ # API Service for HTTP requests │ │ ├── assets/ # Static files │ │ └── environments/ # Environment configurations ├── Startup.cs / Program.cs # App startup configuration └── README.md # Project documentation
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) (ASP.NET and Web Development workload)
+- [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download)
+- [Node.js and npm](https://nodejs.org/en/)
+- Angular CLI installed globally:
+  ```bash
+  npm install -g @angular/cli
+
+## Setup Instructions
+
+### Clone the repository:
+
+git clone https://github.com/yourusername/TodoApp.git
+cd TodoApp
+
+### Install Angular dependencies:
+
+cd ClientApp
+npm install
+cd ..
+
+### Run the application:
+
+In Visual Studio: 
+Press F5 to build and run the backend and frontend together.
+
+Or from command line:
+dotnet run
+
+### Access the app:
+
+Navigate to the URL shown in the console to view the app.
 
