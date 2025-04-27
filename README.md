@@ -25,7 +25,25 @@ This project is ideal for beginners to learn about:
 ---
 
 ## 📂 Project Structure
-TodoApp/ │ ├── Controllers/ # C# API Controllers ├── Models/ # C# Data Models (TodoItem) ├── ClientApp/ # Angular Frontend Application │ ├── src/ │ │ ├── app/ │ │ │ ├── components/ # Angular Components (Todo list, item forms) │ │ │ ├── services/ # API Service for HTTP requests │ │ ├── assets/ # Static files │ │ └── environments/ # Environment configurations ├── Startup.cs / Program.cs # App startup configuration └── README.md # Project documentation
+你可以使用Markdown的代码块来展示目录结构。以下是你的目录结构的Markdown格式展示：
+
+```markdown
+TodoApp/
+│
+├── Controllers/          # C# API Controllers
+├── Models/               # C# Data Models (TodoItem)
+├── ClientApp/            # Angular Frontend Application
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/  # Angular Components (Todo list, item forms)
+│   │   │   ├── services/    # API Service for HTTP requests
+│   │   ├── assets/          # Static files
+│   │   └── environments/    # Environment configurations
+├── Startup.cs / Program.cs  # App startup configuration
+└── README.md               # Project documentation
+```
+
+这样可以清晰地展示你的项目目录结构。需要进一步的帮助吗？
 
 
 ---
