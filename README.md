@@ -43,8 +43,6 @@ TodoApp/
 └── README.md               # Project documentation
 ```
 
-这样可以清晰地展示你的项目目录结构。需要进一步的帮助吗？
-
 
 ---
 
