@@ -25,7 +25,6 @@ This project is ideal for beginners to learn about:
 ---
 
 ## 📂 Project Structure
-你可以使用Markdown的代码块来展示目录结构。以下是你的目录结构的Markdown格式展示：
 
 ```markdown
 TodoApp/
